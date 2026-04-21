@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <style>
-        /* Removes the default white browser background, margins, and scrollbars */
+        /* Base reset */
         html, body {
             margin: 0;
             padding: 0;
-            background-color: #191919; 
-            overflow: hidden; 
-            height: 100vh; 
-            width: 100vw;
-        }
-        .tradingview-widget-container {
+            background-color: #191919;
             height: 100%;
-            width: 100%;
+            overflow: hidden;
+        }
+        /* Aggressively pin the container to the 4 corners of the Notion block */
+        .tradingview-widget-container {
+            position: absolute !important;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100% !important;
+            width: 100% !important;
+        }
+        /* Force the inner widget to stretch, leaving room for the copyright */
+        .tradingview-widget-container__widget {
+            height: calc(100% - 32px) !important; 
+            width: 100% !important;
         }
     </style>
 </head>
