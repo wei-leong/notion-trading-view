@@ -1,17 +1,25 @@
-Trial URL 
-https://wei-leong.github.io/notion-trading-view/trial.html
+# 📈 Notion TradingView Widgets (Archived)
 
-Example (AMZN)
-https://wei-leong.github.io/notion-trading-view/company/amazon/a_stock.html
-https://wei-leong.github.io/notion-trading-view/company/amazon/a_fundamental.html
-https://wei-leong.github.io/notion-trading-view/company/amazon/a_profile.html
+> **Status:** Archived. This project was a utility to embed dynamic market data into Notion workspaces. My knowledge management system has since migrated entirely to Obsidian.
 
-Trading View Widgets Customization Link
-Symbol Overview
-https://www.tradingview.com/widget-docs/widgets/charts/symbol-overview/ 
+## Overview
+A collection of custom, static HTML wrappers for TradingView widgets deployed via GitHub Pages. These wrappers allowed seamless iframe embedding of financial market data, top stories, and economic heatmaps directly into custom dashboards.
 
-Fundamental Data
-https://www.tradingview.com/widget-docs/widgets/symbol-details/fundamental-data/
+## 🔗 Live Widgets & Directory Structure
+The live URLs for the deployments correspond directly to the repository's folder and file structure. You can quickly access any deployed widget by appending its repository file path to the base GitHub Pages URL.
 
-Company Profile
-https://www.tradingview.com/widget-docs/widgets/symbol-details/company-profile/
+**Base URL:** `https://wei-leong.github.io/notion-trading-view/`
+
+**Quick Access Links:**
+* **Ticker Tape:** [`/ticker.html`](https://wei-leong.github.io/notion-trading-view/ticker.html)
+* **Market Heatmap:** [`/heatmap.html`](https://wei-leong.github.io/notion-trading-view/heatmap.html)
+* **Top Stories:** [`/top_story.html`](https://wei-leong.github.io/notion-trading-view/top_story.html)
+* **Example Company (Amazon Stock):** [`/company/amazon/a_stock.html`](https://wei-leong.github.io/notion-trading-view/company/amazon/a_stock.html)
+
+## Tech Stack
+* **Frontend:** HTML, Inline CSS
+* **Integrations:** TradingView Advanced Charts & Widget API
+* **Deployment:** GitHub Pages (CI/CD)
+
+---
+*This repository is preserved for historical commit tracking and deployment reference.*
